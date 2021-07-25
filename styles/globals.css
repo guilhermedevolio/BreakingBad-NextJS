@@ -5,12 +5,33 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+body {
+  background: #e3e3e3;
+}
 a {
   color: inherit;
   text-decoration: none;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+.center {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.page-content {
+  margin-top: 60px;
+}
+li {
+  list-style-type: none;
+}
+a {
+  transition: 0.1s ease-in-out;
+}
+a:hover {
+  color: green;
 }
